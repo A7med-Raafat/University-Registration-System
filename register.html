@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - University Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>University Registration System</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="register.html">Registration</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Registration Form Section -->
+        <section class="registration">
+            <h2>Student Registration Form</h2>
+            
+            <form action="#" method="POST">
+                <!-- Personal Information Section -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                      
+  
+
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                      
+  
+
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                      
+  
+
+                    
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="18" max="60" required>
+                      
+  
+
+                </fieldset>
+
+                <!-- Gender Section -->
+                <fieldset>
+                    <legend>Gender</legend>
+                    
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label>
+                      
+
+                    
+                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <label for="female">Female</label>
+                      
+  
+
+                </fieldset>
+
+                <!-- Courses Section -->
+                <fieldset>
+                    <legend>Courses</legend>
+                    
+                    <input type="checkbox" id="html" name="courses" value="HTML">
+                    <label for="html">HTML</label>
+                      
+
+                    
+                    <input type="checkbox" id="css" name="courses" value="CSS">
+                    <label for="css">CSS</label>
+                      
+
+                    
+                    <input type="checkbox" id="javascript" name="courses" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                      
+
+                    
+                    <input type="checkbox" id="python" name="courses" value="Python">
+                    <label for="python">Python</label>
+                      
+  
+
+                </fieldset>
+
+                <!-- Department Section -->
+                <fieldset>
+                    <legend>Department</legend>
+                    
+                    <label for="department">Select Department:</label>
+                    <select id="department" name="department" required>
+                        <option value="">-- Select a Department --</option>
+                        <option value="Computer Engineering">Computer Engineering</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Information Systems">Information Systems</option>
+                        <option value="Mechanical Engineering">Mechanical Engineering</option>
+                        <option value="Civil Engineering">Civil Engineering</option>
+                    </select>
+                      
+  
+
+                </fieldset>
+
+                <!-- Additional Inputs Section -->
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    
+                    <label for="message">Message:</label>
+                      
+
+                    <textarea id="message" name="message" rows="5" cols="40" placeholder="Enter any additional information..."></textarea>
+                      
+  
+
+                </fieldset>
+
+                <!-- Buttons -->
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 University Registration System. All rights reserved by Ahmed Raafat.</p>
+    </footer>
+</body>
+</html>
